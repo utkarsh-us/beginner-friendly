@@ -1,28 +1,24 @@
-"""I am using string slicing method to do this check, i know one more method that is using recursion that i have commented down feel free to edit and contribute <3"""
-
-# main code
+# Main code with string slicing
 def is_palindrome(n):
-    return n == n[::-1] # if n == reversed n
+    return n == n[::-1]  # Check if n is equal to its reverse
 
-n = input() # user will give input
-print(is_palindrome(n))  # calling the function and then printing boolean - True or False
-
+n = input("Enter a string: ")  # User input
+print(is_palindrome(n))  # Calling the function and printing True or False
 
 
 """
-RECURSION METHOD!
+RECURSION METHOD
+Feel free to edit and contribute <3
+"""
 
-def is_palindrome(n):
-    if len(n) <= 1: # number of characters in n
+# Recursive method to check palindrome
+def is_palindrome_recursive(n):
+    if len(n) <= 1:
         return True
-    if n[0] != n[-1]: # if first character not equal to last character
+    if n[0] != n[-1]:
         return False
-    return is_palindrome(s[1:-1]) # if second character == second last character
+    return is_palindrome_recursive(n[1:-1])
 
-# usage
-
-n = input()
-print(is_palindrome(n))
-
-"""
-
+# Uncomment this to use the recursive method:
+# n = input("Enter a string: ")
+# print(is_palindrome_recursive(n))
