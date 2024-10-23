@@ -1,13 +1,13 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to the **beginner-friendly** repository! Whether you're just starting out or you're an experienced developer, your contributions are valuable to us.
+Thank you for your interest in contributing to the **Simtech-Hacktoberfest** repository! Whether you're just starting out or you're an experienced developer, your contributions are valuable to us.
 
 ## How to Contribute
 
 1. **Fork the repository** by clicking the "Fork" button on the top-right corner.
 2. **Clone your forked repository** to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/beginner-friendly.git
+   git clone https://github.com/<your-username>/Simtech-Hacktoberfest.git
 3. Find an Issue: Check the list of issues and choose one you'd like to work on. Look for issues labeled hacktoberfest for Hacktoberfest participation.
 4. Create a new branch for your work:
    ```bash
